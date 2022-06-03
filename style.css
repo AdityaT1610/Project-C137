@@ -1,0 +1,58 @@
+body
+{
+    background-size: cover;
+}
+
+#heading, #name_of_devoloper
+{
+    width: 100%;
+}
+
+#name_of_devoloper
+{
+    margin-bottom: 0;
+    position: fixed;
+    line-height: 2;
+    text-align: center;
+    bottom: 0;
+    font-size: 20px;
+    background-color: white;
+}
+
+.heading
+{
+    margin-top: 0;
+    line-height: 1.5;
+    top: 0;
+    font-size: 20px;
+}
+
+#start_btn
+{
+    font-size: 20px;
+}
+
+canvas
+{
+    margin-top: 105px;
+    border: 2px dashed teal;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    
+}
+
+#object_name
+{
+    width: 30%;
+    border-radius: 5px;
+}
+
+#heading, #note, #object_name, #start_btn, #status
+{
+    box-shadow: 7px 7px 7px grey;
+}
+
+#note, #start_btn, #status, #object_name
+{
+    margin-bottom: 10px;
+}
